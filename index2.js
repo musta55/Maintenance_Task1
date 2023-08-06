@@ -14,13 +14,13 @@ function compareFiles(file1Path, file2Path) {
     if (change.added) {
       const addedLines = change.value.match(/\n/g);
       addedCount += addedLines ? addedLines.length : 0;
-      output += `Added: ${change.value}\n`;
+      output += `Added:\n ${change.value}\n`;
     } else if (change.removed) {
       const removedLines = change.value.match(/\n/g);
       removedCount += removedLines ? removedLines.length : 0;
-      output += `Removed: ${change.value}\n`;
+      output += `Removed:\n ${change.value}\n`;
     } else {
-      output += `Unchanged: ${change.value}\n`;
+      output += `Unchanged:\n ${change.value}\n`;
     }
   });
 
