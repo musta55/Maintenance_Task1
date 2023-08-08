@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cloc": "^1.96.0-cloc",
     "colors": "^1.4.0",
     "diff": "^5.1.0",
     "dir-compare": "^4.0.0",

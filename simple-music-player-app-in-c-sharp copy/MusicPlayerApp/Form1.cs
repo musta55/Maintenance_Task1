@@ -34,11 +34,5 @@ namespace MusicPlayerApp
             }
         }
 
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            //Code to Close the App
-            this.Close();
-        }
     }
 }
